@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Source+Code+Pro&display=swap');
+html, body {
+    font-family: 'Orbitron', sans-serif;
+    height: 100%;
+}
+
+body {
+    background-color: rgb(29, 33, 39);
+    margin: 1px;
+    outline-color: white;
+    outline-style: solid;
+    outline-width: 1px;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 100%;
+}
+body.background-image {
+    filter: blur(80%);
+}
+p {
+    color: white;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+}
+li {
+}
+
+/*** Nav Bar ***/
+.nav {
+    background-color: rgba(22, 22, 22, 0.5);
+    outline-color: white;
+    outline-style: solid;
+    outline-width: 1px;
+    /*position: fixed;*/
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+.nav a {
+    display: inline-block;
+    color: white;
+    text-transform: uppercase;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    letter-spacing: 3px;
+}
+.nav a:hover {
+    color: black;
+    background-color: white;
+}
+/*** End Nav Bar ***/
+
+/*** Begin Main Home***/
+#content {
+    min-height: 100%;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.background {
+    width: 100%;
+    width: 100%;
+    position: relative;
+}
+/** End Main Home ***/
+
+/** Begin Info Content **/
+#info {
+    width: 100%;
+    margin-top: 1%;
+    display: grid;
+    justify-content: center;
+
+}
+
+.infolist {
+    background-color: rgba(22, 22, 22, 0.5);
+    padding: 0px;
+    color: white;
+    outline-color: white;
+    outline-style: solid;
+    outline-width: 1px;
+}
+
+.playmusic {
+    font-size: 35px;
+    letter-spacing: 3px;
+    font-variant-caps: small-caps;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    flex-flow: row wrap;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+#linkspotify {
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.playspotify a {
+    color: white;
+    background-color: #1db954;
+    outline-color: white;
+    outline-style: solid;
+    outline-width: 1px;
+    box-shadow: 0px 0px 8px 8px inset rgba(0, 0, 0, 0.10);
+    float: left;
+}
+
+.playspotify a:hover {
+    color: black;
+    background-color: white;
+    outline-color: #1db954;
+}
+
+#linkamazon {
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.playamazon a {
+    color: white;
+    background-color: #00bcf5;
+    outline-color: white;
+    outline-style: solid;
+    outline-width: 1px;
+    box-shadow: 0px 0px 8px 8px inset rgba(0, 0, 0, 0.1);
+    float: left;
+}
+
+.playamazon a:hover {
+    color: black;
+    background-color: white;
+    outline-color: #00bcf5;
+}
+
+#linkapplemusic {
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.playapplemusic a {
+    color: white;
+    background-color: #f50097;
+    outline-color: white;
+    outline-style: solid;
+    outline-width: 1px;
+    box-shadow: 0px 0px 8px 8px inset rgba(0, 0, 0, 0.1);
+    float: left;
+}
+
+.playapplemusic a:hover {
+    color: black;
+    background-color: white;
+    outline-color: #f50097;
+}
+
+/** End Info Content **/
+
+img {
+    padding: 0%;
+}
